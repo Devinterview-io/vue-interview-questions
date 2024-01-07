@@ -1,108 +1,1097 @@
-# 🖲 40 Vue interview questions (answered) for web developers in 2021
+# Top 100 Vue.js Interview Questions
 
-Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. Check our list of essential Vue interview questions and answers that will trend on web developer interviews in 2021.
-
-</br>
-
+<div>
 <p align="center">
-  <a href="https://devinterview.io/">
-  <img src="https://source.unsplash.com/collection/52661698/600x300">
-  </a>
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
 </p>
 
-</br>
+#### You can also find all 100 answers here 👉 [Devinterview.io - Vue.js](https://devinterview.io/questions/web-and-mobile-development/vue-interview-questions)
 
-> You can also find all 40 answers here 👉🏼 https://devinterview.io/dev/vuejs-interview-questions
+<br>
 
-</br>
+## 1. What is _Vue.js_ and why would you use it?
 
-<div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 1. What is Vue.js?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p><strong>Vue js</strong> is progressive javascript script used to create dynamic user interfaces.Vue js is very easy to learn.In order to work with Vue js you just need to add few dynamic features to a website.You don’t need to install any thing to use Vue js just need add Vue js library in your project.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY" rel="noreferrer" target="_blank" title="What is Vue.js? Interview Questions Source To Answer">onlineinterviewquestions.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 2. How to create an instance of Vue.js?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>Every Vue application starts by creating a new Vue instance with the Vue function:</p><pre><code><span class="token cVar">var</span> vm <span class="token cBase">=</span> <span class="token cVar">new</span> <span class="token class-name">Vue</span><span class="token cBase">(</span><span class="token cBase">{</span>
-  <span class="token cComment">// options</span>
-<span class="token cBase">}</span><span class="token cBase">)</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY" rel="noreferrer" target="_blank" title="How to create an instance of Vue.js? Interview Questions Source To Answer">onlineinterviewquestions.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 3. What are Components in Vue.js?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p><em>Components</em> are one of most powerful features of Vue js.In Vue components are custom elements that help extend basic HTML elements to encapsulate reusable code.</p><p>Following is the way to register a Vue component inside another component:</p><pre><code><span class="token cVar">export</span> <span class="token cVar">default</span> <span class="token cBase">{</span>
-  el<span class="token cBase">:</span> <span class="token cString">'#your-element'</span>
-  components<span class="token cBase">:</span> <span class="token cBase">{</span>
-      <span class="token cString">'your-component'</span>
-  <span class="token cBase">}</span>
-<span class="token cBase">}</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY" rel="noreferrer" target="_blank" title="What are Components in Vue.js? Interview Questions Source To Answer">onlineinterviewquestions.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 4. What are filters in Vue.js?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>In Vue js filters are used to transform the output that are going to rendered on browser.</p><p>A Vue.js filter is essentially a function that takes a value, processes it, and then returns the processed value. In the markup it is denoted by a single pipe (|) and can be followed by one or more arguments:</p><pre><code><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>element</span> <span class="token cVar">directive</span><span class="token cString"><span class="token cBase">=</span><span class="token cBase">"</span>expression | filterId \[args...\]<span class="token cBase">"</span></span><span class="token cBase">&gt;</span></span><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>element</span><span class="token cBase">&gt;</span></span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY" rel="noreferrer" target="_blank" title="What are filters in Vue.js? Interview Questions Source To Answer">onlineinterviewquestions.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 5. What are Directives in Vue.js, List some of them you used?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>The concept of directive in Vue js is drastically simpler than that in Angular. Vue.js directives provides a way to extend HTML with new attributes and tags. Vue.js has a set of built-in directives which offers extended functionality to your applications.You can also write your custom directives in Vue.js .</p><p>Below are list of commonly used directives in Vue.js</p><ul><li>v-show</li><li>v-if</li><li>v-model</li><li>v-else</li><li>v-on</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY" rel="noreferrer" target="_blank" title="What are Directives in Vue.js, List some of them you used? Interview Questions Source To Answer">onlineinterviewquestions.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 6. How can I fetch query parameters in Vue.js?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>You have access to a <code>$route</code> object from your components, that expose what we need.</p><pre><code><span class="token cComment">//from your component</span>
-console<span class="token cBase">.</span><span class="token cMod">log</span><span class="token cBase">(</span><span class="token cVar">this</span><span class="token cBase">.</span>$route<span class="token cBase">.</span>query<span class="token cBase">.</span>test<span class="token cBase">)</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/35914069/vue-js-query-parameters" rel="noreferrer" target="_blank" title="How can I fetch query parameters in Vue.js? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 7. Explain the basic logical Vue.js app organisation</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>Vue.js application</strong> consists of a root Vue instance created with new Vue, optionally organized into a tree of nested, reusable components. For example, a todo app’s component tree might look like this:</p><pre><code>Root Instance
-└─ TodoList
-   ├─ TodoItem
-   │  ├─ DeleteTodoButton
-   │  └─ EditTodoButton
-   └─ TodoListFooter
-      ├─ ClearTodosButton
-      └─ TodoListStatistics</code></pre><p>All Vue components are also Vue instances.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://vuejs.org/v2/guide/instance.html" rel="noreferrer" target="_blank" title="Explain the basic logical Vue.js app organisation Interview Questions Source To Answer">vuejs.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 8. Explain the differences between one-way data flow and two-way data binding?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>In one-way data flow the view(UI) part of application does not updates automatically when data Model is change  we need to write some custom code to make it updated every time a data model is changed. In Vue js <strong>v-bind</strong> is used for one-way data flow or binding.</p><p>In two-way data binding the view(UI) part of application automatically updates when data Model is changed.  In Vue.js <strong>v-model</strong> directive is used for two way data binding.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY" rel="noreferrer" target="_blank" title="Explain the differences between one-way data flow and two-way data binding? Interview Questions Source To Answer">onlineinterviewquestions.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 9. List some features of Vue.js</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>Vue js comes with following features</p><ul><li>Templates</li><li>Reactivity</li><li>Components</li><li>Transitions</li><li>Routing</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY" rel="noreferrer" target="_blank" title="List some features of Vue.js Interview Questions Source To Answer">onlineinterviewquestions.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 10. How to create Two-Way Bindings in Vue.js?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p><code>v-model</code> directive is used to create Two-Way Bindings in Vue js.In Two-Way Bindings data or model is bind with DOM and Dom is binded back to model.</p><p>In below example you can see how Two-Way Bindings is implemented.</p><pre><code><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>div</span> <span class="token cVar">id</span><span class="token cString"><span class="token cBase">=</span><span class="token cBase">"</span>app<span class="token cBase">"</span></span><span class="token cBase">&gt;</span></span>
-  {{message}}
-  <span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>input</span> <span class="token cVar">v-model</span><span class="token cString"><span class="token cBase">=</span><span class="token cBase">"</span>message<span class="token cBase">"</span></span><span class="token cBase">&gt;</span></span>
-<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>div</span><span class="token cBase">&gt;</span></span>
-<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>script</span> <span class="token cVar">type</span><span class="token cString"><span class="token cBase">=</span><span class="token cBase">"</span>text/javascript<span class="token cBase">"</span></span><span class="token cBase">&gt;</span></span><span class="token script"><span class="token language-javascript">
-  <span class="token cVar">var</span> message <span class="token cBase">=</span> <span class="token cString">'Vue.js is rad'</span><span class="token cBase">;</span>
-  <span class="token cVar">new</span> <span class="token class-name">Vue</span><span class="token cBase">(</span><span class="token cBase">{</span> el<span class="token cBase">:</span> <span class="token cString">'#app'</span><span class="token cBase">,</span> data<span class="token cBase">:</span> <span class="token cBase">{</span> message <span class="token cBase">}</span> <span class="token cBase">}</span><span class="token cBase">)</span><span class="token cBase">;</span>
-</span></span><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>script</span><span class="token cBase">&gt;</span></span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.onlineinterviewquestions.com/vue-js-interview-questions/#.Wx0soFOFNTY" rel="noreferrer" target="_blank" title="How to create Two-Way Bindings in Vue.js? Interview Questions Source To Answer">onlineinterviewquestions.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 11. What are the Advantages/Disadvantages of Vuejs?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p><strong>Vue.js Advantages</strong></p><ul><li>Easy for applications and interfaces development</li><li>Support Two-way communication as like AngularJs</li><li>Ability to control the states</li><li>Natural thought process</li></ul><p><strong>Vue.js</strong> <strong>Disadvantages</strong></p><ul><li>Limited scope</li><li>Single creator</li><li>Small developer community</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/" rel="noreferrer" target="_blank" title="What are the Advantages/Disadvantages of Vuejs? Interview Questions Source To Answer">Stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 12. Can I pass parameters in computer properties in Vue.js?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>You can use a <em>method</em> or <em>computed function</em>.</p><p>The method way:</p><pre><code><span class="token cBase">&lt;</span>span<span class="token cBase">&gt;</span><span class="token cBase">{</span><span class="token cBase">{</span> <span class="token cMod">fullName</span><span class="token cBase">(</span><span class="token cString">'Hi'</span><span class="token cBase">)</span> <span class="token cBase">}</span><span class="token cBase">}</span><span class="token cBase">&lt;</span><span class="token cBase">/</span>span<span class="token cBase">&gt;</span>
+**Vue.js** is a progressive JavaScript framework primarily used for building **user interfaces** and single-page applications. It is known for its adaptability, small file size, and the progressive learning curve.
 
-methods<span class="token cBase">:</span> <span class="token cBase">{</span>
-  <span class="token cMod">fullName</span><span class="token cBase">(</span><span class="token parameter">salut</span><span class="token cBase">)</span> <span class="token cBase">{</span>
-      <span class="token cVar">return</span> <span class="token template-string"><span class="token template-punctuation cString">`</span><span class="token interpolation"><span class="token interpolation-punctuation cBase">${</span>salut<span class="token interpolation-punctuation cBase">}</span></span><span class="token cString"> </span><span class="token interpolation"><span class="token interpolation-punctuation cBase">${</span><span class="token cVar">this</span><span class="token cBase">.</span>firstName<span class="token interpolation-punctuation cBase">}</span></span><span class="token cString"> </span><span class="token interpolation"><span class="token interpolation-punctuation cBase">${</span><span class="token cVar">this</span><span class="token cBase">.</span>lastName<span class="token interpolation-punctuation cBase">}</span></span><span class="token template-punctuation cString">`</span></span>
-  <span class="token cBase">}</span>
-<span class="token cBase">}</span></code></pre><p>Computed property with a parameter way:</p><pre><code>computed<span class="token cBase">:</span> <span class="token cBase">{</span> 
-	<span class="token cMod">fullName</span><span class="token cBase">(</span><span class="token cBase">)</span> <span class="token cBase">{</span>
-		<span class="token cVar">return</span> <span class="token parameter">salut</span> <span class="token cBase">=&gt;</span> <span class="token template-string"><span class="token template-punctuation cString">`</span><span class="token interpolation"><span class="token interpolation-punctuation cBase">${</span>salut<span class="token interpolation-punctuation cBase">}</span></span><span class="token cString"> </span><span class="token interpolation"><span class="token interpolation-punctuation cBase">${</span><span class="token cVar">this</span><span class="token cBase">.</span>firstName<span class="token interpolation-punctuation cBase">}</span></span><span class="token cString"> 		
-		 </span><span class="token interpolation"><span class="token interpolation-punctuation cBase">${</span><span class="token cVar">this</span><span class="token cBase">.</span>lastName<span class="token interpolation-punctuation cBase">}</span></span><span class="token template-punctuation cString">`</span></span>
-    <span class="token cBase">}</span>
-<span class="token cBase">}</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/" rel="noreferrer" target="_blank" title="Can I pass parameters in computer properties in Vue.js? Interview Questions Source To Answer">Stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 13. What are components props?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>Every component instance has its own isolated scope. This means you cannot (and should not) directly reference parent data in a child component’s template. Data can be passed down to child components using <strong>props</strong>. Props are custom attributes you can register on a component. When a value is passed to a prop attribute, it becomes a property on that component instance.</p><pre><code>Vue<span class="token cBase">.</span><span class="token cMod">component</span><span class="token cBase">(</span><span class="token cString">'blog-post'</span><span class="token cBase">,</span> <span class="token cBase">{</span>
-  <span class="token cComment">// camelCase in JavaScript</span>
-  props<span class="token cBase">:</span> <span class="token cBase">[</span><span class="token cString">'postTitle'</span><span class="token cBase">]</span><span class="token cBase">,</span>
-  template<span class="token cBase">:</span> <span class="token cString">'&lt;h3&gt;{{ postTitle }}&lt;/h3&gt;'</span>
-<span class="token cBase">}</span><span class="token cBase">)</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://vuejs.org/v2/guide/components-props.html#ad" rel="noreferrer" target="_blank" title="What are components props? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 14. How to deploy Vue.js app?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>If you've created your project like this:</p><pre><code>vue init webpack myproject</code></pre><p>Now you can run</p><pre><code>npm run build</code></pre><p>Then copy index.html and /dist/ folder into your website root directory. Done.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/42936588/how-to-deploy-vue-app" rel="noreferrer" target="_blank" title="How to deploy Vue.js app? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 15. How to use local storage with Vue.js?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>You can just do following:</p><pre><code>localStorage<span class="token cBase">.</span><span class="token cMod">setItem</span><span class="token cBase">(</span><span class="token cString">'YourItem'</span><span class="token cBase">,</span> response<span class="token cBase">.</span>data<span class="token cBase">)</span>
-localStorage<span class="token cBase">.</span><span class="token cMod">getItem</span><span class="token cBase">(</span><span class="token cString">'YourItem'</span><span class="token cBase">)</span>
-localStorage<span class="token cBase">.</span><span class="token cMod">removeItem</span><span class="token cBase">(</span><span class="token cString">'YourItem'</span><span class="token cBase">)</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/41425889/vue-js-how-to-use-localstorage-with-vue-js" rel="noreferrer" target="_blank" title="How to use local storage with Vue.js? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 16. How can you redirect to another page in Vue.js?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 17. What is filters in Vue.js?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 18. List type of Directive are available in Vue.js.</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 19. List some benefits of Vue.js</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 20. How can you prevent layout jumps in Vue.js?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 21. How to call function on child component on parent events?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 22. How to pass an argument to Vue.js filters?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 23. What is the difference v-bind and v-model? Provide some code example.</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 24. How to loop in Vue.js?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 25. Are there any drawback of Vue.js you know?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 26. Can you force Vue.js to reload/rerender?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 27. What is Vuex?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 28. How to use Gulp with Vue.js?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 29. How can you bind styles in Vue.js?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 30. What's the equivalent of Angular Service in Vue.js?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 31. How can I watch an array length using Vue.js?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 32. Why we need Vue.js mixins?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 33. What is a proper way to communicate between sibling components in vuejs 2.0?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 34. List some types of components communication channels in Vue.js app</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 35. How do you toggle a class in Vue.js?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 36. What is the main difference between a method and a computed value in Vue.js?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 37. Could you listen for components props changes?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 38. How to save new value to data variables in Vue.js whenever the user types?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 39. What is the best way to create a constant, that can be accessible from entire application in VueJs ?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 40. How to implement simple routing in Vue.js (without external library)?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/dev/vuejs-interview-questions">all 40 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div></div>
+### Key Features
+
+#### Virtual DOM
+
+Vue uses a **virtual DOM**, which is a lightweight copy of the actual DOM. This approach significantly speeds up UI updates by only rendering what has changed.
+
+#### JS and Template Integration
+
+Vue combines JavaScript and HTML-like templates for component structure. It then uses a **virtual DOM renderer** to update the actual DOM when data changes.
+
+#### Two-Way Data Binding
+
+Vue offers **two-way data binding** using the `v-model` directive, where changes in the UI instantly reflect in the data model and vice versa.
+
+### Directives
+
+Vue leverages **HTML directives** for actions, loops, and more. Examples include `v-if`, `v-for`, and `v-on`.
+
+### Integration with Major Front-End Tools
+
+Vue pairs remarkably well with a broad array of front-end tools including:
+
+- **Webpack**: For asset bundling.
+- **Babel**: To transpile ES6.
+- **TypeScript**: For type-safety.
+- **ESLint**: For code linting.
+
+#### Let's look at the versioning and the stance on backward compatibility:
+
+- **Versioning Scheme**: Vue adheres to Semantic Versioning, making it easier for users to understand when there are breaking changes.
+
+- **Backward Compatibility**: While Vue places a strong emphasis on maintaining backward compatibility, it might introduce breaking changes in major releases. However, the Vue team assists users in the migration process, providing detailed documentation and migration paths.
+
+### Code Example: Bidirectional Data Binding
+
+Here is the Vue.js code:
+
+```vue
+<template>
+  <div>
+    <input v-model="message" placeholder="Edit me">
+    <p>Message is: {{ message }}</p>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      message: 'Hello Vue!'
+    }
+    }
+}
+</script>
+```
+<br>
+
+## 2. How do you set up a project with _Vue.js_?
+
+To **initialize** a Vue.js project, utilize a **package manager** (npm or yarn) and the Vue CLI. This empowers you with tools like webpack and Babel, facilitates **incremental adoption**, and ensures best practices from the beginning.
+
+### Steps for Project Setup
+
+1. **Install Vue CLI**:  
+   Run the specified command in a terminal.
+
+   - **npm**: `npm install -g @vue/cli`
+   - **Yarn**: `yarn global add @vue/cli`
+
+2. **Create a Vue Project**:  
+   Generate a new project using Vue CLI.
+
+   ```bash
+   vue create my-vue-app
+   ```
+
+   Select a default preset or **customize** the setup based on the project's requirements. After this, navigate into your project folder.
+
+3. **Project Structure**:  
+   Vue CLI sets up the project with a recommended structure including `public`, `src`, and various configuration files.
+
+4. **Development Server**:  
+   Boot up a local server to dynamically view project changes.
+
+   ```bash
+   npm run serve
+   ```
+
+5. **Production Build**:  
+   Generate an optimized, minified, and production-ready build.
+
+   ```bash
+   npm run build
+   ```
+
+6. **Project Configuration**:  
+   Manage project settings via `package.json` and `vue.config.js`. The latter aids in customizing build and development setups.
+
+7. **Code Editor Integration**:  
+   Use Vetur plugin for advanced Vue tooling support in VS Code. Other code editors might benefit from relevant extensions.
+
+8. **Ready for Development**:  
+   You are all set! Start building your Vue app.
+
+### Configurable Features
+
+The Vue CLI allows selection from various **application features** during the initial setup. This ensures a starting point that is tailored to the project’s needs.
+
+For instance, you can span from the basic setup like:
+
+- **Babel**: Employ the cutting-edge JavaScript features that are not completely standardized yet.
+- **Linter**: Keep code quality in check with ESLint.
+
+To the advanced setup, which might include features such as:
+
+- **Vue Router**: For handling routing within the application.
+- **Vuex**: For state management, specifically in larger applications.
+- **CSS Pre-processors**: Integrate with Sass, Less, or Stylus for enhanced stylesheet capabilities.
+- **Unit Testing**: Incorporate unit tests often alongside tools like Jest or Mocha.
+
+### Vue CLI 5 Upgrades
+
+Depending on the **Vue CLI version** you're working with, the provided commands and available features might differ. Always leverage the most recent Vue CLI version.
+
+To ensure **smooth transitions** between versions and harness the newest Vue capabilities, precise guidance on version-specific features and upgrades can be found in the official Vue CLI documentation.
+<br>
+
+## 3. Can you explain the _Vue.js lifecycle hooks_?
+
+Vue.js organizes **lifecycle events** into distinct stages, each linked to a specific lifecycle hook. These hooks enable developers to execute custom logic at crucial points during a component's life cycle.
+
+### Vue.js Lifecycle Stages
+
+1. **Initialization**: The component is being set up.
+2. **Mounting**: The component is being added to the DOM.
+3. **Update**: Data in the component undergoes changes.
+4. **Destruction**: The component is being removed from the DOM.
+
+### Lifecycle Hooks
+
+1. **beforeCreate**: Occurs at the earliest step in initialization, before data observations and initializations are in place.
+2. **created**: After the component's data and events are set up, this hook permits you to work with the component synchronously.
+3. **beforeMount**: Just before the component is added to the DOM, execute logic.
+4. **mounted**: The component is now in the DOM and is accessible for UI-related interactions.
+5. **beforeUpdate**: Before the component re-renders, you can perform certain tasks here.
+6. **updated**: The component has re-rendered and the DOM now reflects the most recent data.
+7. **beforeDestroy**: Just before the component is destroyed, carry out cleanup tasks, such as uncoupling event listeners.
+8. **destroyed**: Once the component is destroyed, perform any final teardown work like stopping intervals or closing connections.
+
+
+### Code Example: Lifecycle Hooks
+
+Here is the **JavaScript** code:
+
+```javascript
+new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  },
+  beforeCreate: function() {
+    console.log('Before creation - The message is: ' + this.message);
+  },
+  created: function() {
+    console.log('Component created');
+  },
+  beforeMount: function() {
+    console.log('Before mounting');
+  },
+  mounted: function() {
+    console.log('Component mounted');
+  },
+  beforeUpdate: function() {
+    console.log('Before update - The message is: ' + this.message);
+  },
+  updated: function() {
+    console.log('Component updated');
+  },
+  beforeDestroy: function() {
+    console.log('Before component destruction');
+  },
+  destroyed: function() {
+    console.log('Component destroyed');
+  },
+  methods: {
+    updateMessage: function() {
+      this.message = 'Updated message';
+    },
+    destroyComponent: function() {
+      this.$destroy();
+    }
+  }
+});
+```
+<br>
+
+## 4. What are _Vue.js_ _components_ and how do you use them?
+
+**Vue.js components** are reusable, self-contained elements that consist of three main parts: a **template**, **script**, and **style**. These encapsulated building blocks enable a clear separation of concerns within your web application. Efficiently constructed components can significantly contribute to the maintainability and scalability of your Vue app.
+
+In component-based **development**, a larger application is broken down into smaller, interconnected units—the components. Each component focuses on one specific task, such as presenting the user interface for an email, a customer, or a form. This modular structure streamlines the development process and enhances code reusability.
+
+### Anatomy of a Vue Component
+
+Here's the step by step:
+
+#### 1. Template
+
+The template is the visual representation of a component, typically constructed using HTML. You can embed Vue directives, attributes, and expressions, allowing for dynamic rendering based on component data and logic.
+
+##### Example: Vue Component Template
+
+```html
+<!-- vue-component.vue -->
+<template>
+  <div>
+    <h1>{{ title }}</h1>
+    <p v-show="isContentVisible">{{ content }}</p>
+    <button @click="toggleContentVisibility">Toggle Content</button>
+  </div>
+</template>
+```
+
+#### 2. Script
+
+The script provides the component's behavior and data logic. It defines the Vue object options such as data, methods, computed properties, and watchers.
+
+##### Example: Vue Component Script
+
+```html
+<!-- vue-component.vue -->
+<script>
+export default {
+  data() {
+    return {
+      title: 'Component Title',
+      content: 'Dynamic content here!',
+      isContentVisible: true,
+    };
+  },
+  methods: {
+    toggleContentVisibility() {
+      this.isContentVisible = !this.isContentVisible;
+    },
+  },
+};
+</script>
+```
+
+#### 3. Style
+
+The style section allows for component-specific CSS (or other pre-processed styles like SASS or LESS) encapsulation, preventing style bleed and conflicts across different parts of your application.
+
+##### Example: Vue Component Style
+
+```html
+<!-- vue-component.vue -->
+<style scoped>
+h1 {
+  font-size: 1.5em;
+  color: #333;
+}
+p {
+  color: darkslategray;
+  font-size: 1em;
+}
+</style>
+```
+
+### Registering Components
+
+There are multiple ways to register Vue components:
+
+1. **Globally Registered Components**: Perfect for app-wide and frequent usage. Quickly added using Vue's `Vue.component` method.
+
+   Example:
+
+    ```javascript
+    Vue.component('my-global-component', {
+      // Component options
+    });
+    ```
+
+2. **Locally Registered Components**: Best for encapsulated, single-file components. Import and declare in a parent component.
+
+   Example:
+
+   ```javascript
+   import MyBaseComponent from './components/MyBaseComponent.vue';
+
+   export default {
+     components: {
+       'my-local-base-component': MyBaseComponent,
+     },
+   };
+   ```
+
+3. **Automatically Imported Components**: Offers on-the-fly component import. Ideal for tree-shaking and smaller bundle sizes.
+
+   Example:
+
+   ```javascript
+   async function loadGloballyRegisteredComponents() {
+     const { MyGlobalComponent } = await import('./components/MyGlobalComponent.vue');
+   }
+   ```
+
+4. **Component Registration via CLI or Build Tools**: Benefit from Vue's build tools and more streamlined workflows.
+
+   Example:
+
+    ```javascript
+    import MyLocalComponent from './components/MyLocalComponent.vue';
+
+    // In the build setup
+    Vue.component('my-local-component', MyLocalComponent);
+    ```
+
+### Practical Component-Driven Development
+
+1. **Code Reusability**: A well-designed and atomic component library ensures code efficiency and reusability.
+
+2. **Collaborative Development**: Parallel development and team collaboration are facilitated as each team member can work on different components independently.
+
+3. **Clear Code Structure**: Component-based development promotes a clear, self-documenting code structure, making onboarding and maintenance more manageable.
+
+4. **Improved Code Quality**: Smaller, isolated components are easier to test, reducing the potential for bugs or unexpected behavior.
+
+5. **Enhanced Project Scalability**: As your app grows, you can integrate new features and scale more seamlessly with the help of components.
+<br>
+
+## 5. How do you _bind data_ to the _view_ in _Vue.js_?
+
+In **Vue.js**, **Data Binding** establishes a connection between the model and the view, ensuring that changes in one are reflected in the other. Vue offers three primary binding types:
+
+- **One-time**: Ideal for scenarios where data doesn't change, and you want to initialize the view with it. Using this option can increase performance.
+- **One-way**: Data changes are propagated from the model to the view. It's beneficial in ensuring that the model is the single source of truth, simplifying the understanding of your application flow.
+- **Two-way**: This type of binding relationship is more dynamic, enabling changes made in either the view or the model to be reflected in the opposite entity.
+
+### Data Binding Syntax
+
+- **Text**: `{{ }}`
+- **HTML Attributes**: `:attrName="dataProp"` or `v-bind:attrName="dataProp"`
+- **Element Visibility**: `v-show="condition"` or `v-if="condition"`
+- **List Rendering**: `v-for`
+- **Event Listening**: `@event="handlerMethod"` or `v-on:event="handlerMethod"`
+
+### Key Directives
+
+- **v-bind**: Binds data to an element.
+- **v-model**: Establishes two-way data binding for form inputs.
+- **v-on**: Listens to events on elements and triggers event handler methods defined in the component.
+
+### Code Example: Vue.js Binding Types
+
+Here is the Vue data
+
+```javascript
+data() {
+  return {
+    message: "Hello, World!",
+    isButtonDisabled: false,
+    textColor: "red",
+    users: [
+      { id: 1, name: "Alice" },
+      { id: 2, name: "Bob" }
+    ],
+    userProfile: {
+      id: 1,
+      name: "Alice",
+      email: "alice@example.com"
+    }
+  };
+},
+methods: {
+  toggleButton: function() {
+    this.isButtonDisabled = !this.isButtonDisabled;
+  }
+}
+```
+
+Here is the Vue HTML
+
+```html
+<p>{{ message }}</p>
+<button :disabled="isButtonDisabled" @click="toggleButton">Toggle</button>
+<p :style="{ color: textColor }">Text in dynamic color</p>
+<ul>
+  <li v-for="user in users" :key="user.id">{{ user.name }}</li>
+</ul>
+<input v-model="userProfile.name" type="text">
+```
+<br>
+
+## 6. What is a _Vue instance_ and its purpose?
+
+The **Vue Instance** serves as the entry point for Vue applications, acting as the core engine that controls and coordinates the entire application.
+
+### Core Functions
+
+The Vue Instance offers key functions, including:
+
+#### Data Management
+
+- **Data**: Houses the application's state, organized as key-value pairs. Changes to data are automatically reflected across the application.
+- **Computed Properties**: Derive new data from existing app state, ensuring reactivity and performance gains.
+- **Watchers**: Track specific data points (or computed properties) for changes, enabling additional actions or logic.
+
+#### Lifecycle Management
+
+- **Lifecycle Hooks**: Provides customized behaviors at key application stages, such as when a component is created, mounted, updated, or destroyed.
+
+#### DOM Interaction
+
+- **Directives**: Special attributes that modify the DOM when linked by Vue through its templating engine.
+- **Methods**: Functions that can alter app state or execute actions in response to user or system events.
+
+#### Component Composition
+
+- **Components**: Encapsulate sections of the UI and logic, enabling modularity and reusability within applications. The Vue Instance serves as the orchestrator that brings these components together.
+<br>
+
+## 7. Explain the _virtual DOM_ in _Vue.js_.
+
+The **Virtual DOM** in Vue.js acts as an intermediary layer between the actual DOM and the Vue.js component's in-memory representation. Vue.js uses a **differencing algorithm** known as Dynamic Update to match the Virtual DOM to the actual DOM, leading to minimal, efficient, and real-time updates.
+
+### Key Concepts
+
+1. **Declarative UI**: Vue.js employs declarative UI, allowing developers to state "what" should be displayed, and abstracts the "how" regarding DOM updates, using the Virtual DOM as a tool for efficiency.
+
+2. **Retention of State**: The Virtual DOM serves as a memory bank, preserving component states and rendering them to the actual DOM when necessary.
+
+3. **Batching**: Vue.js strategically groups multiple DOM updates from a single "tick" in a queue for optimum performance, regularly updating the real DOM only as needed based on queue contents.
+
+4. **Performance Optimization**: Through the efficient use of the Virtual DOM for DOM updates, Vue.js minimizes redundant re-renders and ensures that the cost of updates is proportional to the actual changes.
+
+5. **Cross-Platform Support**: As both the real DOM and the Virtual DOM have unified interfaces, components remain platform-independent, and developers can transition between different platforms seamlessly.
+
+### Advantages
+
+- **Performance**: Vue.js leverages the Virtual DOM to optimize and streamline DOM updates, resulting in faster user interfaces.
+   
+- **Ease of Use**: By abstracting the complexities associated with direct DOM manipulation, Vue.js empowers developers to focus on the application's logic and presentation layer.
+
+### Code Example: Virtual DOM
+
+Here is the JavaScript code:
+
+```javascript
+// Initial Array
+const numbers = [1, 2, 3, 4, 5];
+
+// Changing Array
+numbers[2] = 7;
+
+// Ensured updated Array
+console.log(numbers);  // [1, 2, 7, 4, 5]
+```
+
+In this example, even though we update an element in the `numbers` array directly without using any Vue.js reactivity feature, the console log still prints out the modified array. This behavior stems from Vue.js reactivity and its reliance on the Virtual DOM for enhanced efficiency.
+<br>
+
+## 8. What are _directives_ in _Vue.js_? Can you give examples?
+
+**Vue.js** directives are special attributes that manipulate the Document Object Model (DOM) based on the bound values.
+
+Despite closely resembling HTML attributes, **directives** are distinct and recognized by the **v-** prefix, e.g., v-bind. They are fundamental for data-driven applications and ensure the View remains synced with the ViewModel.
+
+### Core Directives
+
+#### v-bind: Dynamically Setting Attributes
+
+The `v-bind` directive syncs an HTML attribute with a Vue.js expression. This is especially useful for setting dynamic classes, styles, and attributes, including **inputs**.
+
+**Reactive Class Example:**
+
+```vue
+<template>
+  <div v-bind:class="{ active: isActive }"></div>
+</template>
+```
+
+#### v-if and v-show: Conditionally Rendering Elements
+
+Both of these directives control an element's visibility based on a Boolean.
+
+- `v-if` completely removes the element from the DOM when its attached value is `false`.
+- `v-show` toggles the element's CSS `display` property.
+
+**Use Case Distinction**: Employ `v-if` for conditional rendering where visibility alterations are infrequent, while `v-show` is suitable for toggling visibility in response to user actions.
+
+```vue
+<template>
+  <div v-if="isDisplayed">Displayed on True</div>
+  <div v-show="isOpen">Always Shown</div>
+</template>
+```
+
+#### v-for: Generating Repetitive Elements
+
+The `v-for` directive iterates over a dataset and replicates the current DOM element for every item in the collection or array.
+
+**Dynamic List Example:**
+
+```vue
+<template>
+  <ul>
+    <li v-for="item in items" :key="item.id">{{ item.name }}</li>
+  </ul>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      items: [
+        { id: 1, name: 'First Item' },
+        { id: 2, name: 'Second Item' }
+      ]
+    };
+  }
+};
+</script>
+```
+
+#### v-on: Event Handling
+
+The `v-on` directive reacts to DOM events and triggers methods or updates data accordingly.
+
+**Event Handling Example:**
+
+```vue
+<template>
+  <button v-on:click="toggleState">Toggle State</button>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      isActive: true
+    };
+  },
+  methods: {
+    toggleState() {
+      this.isActive = !this.isActive;
+    }
+  }
+};
+</script>
+```
+
+#### v-model: Two-Way Data Binding
+
+This directive links form input elements to Vue.js data, ensuring that any changes in the View update the underlying data and vice versa.
+
+**Two-Way Binding Example:**
+
+```vue
+<template>
+  <input type="text" v-model="inputValue" />
+  <p>{{ inputValue }}</p>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      inputValue: ''
+    };
+  }
+};
+</script>
+```
+<br>
+
+## 9. How do you handle user _inputs_ and _form submissions_ in _Vue.js_?
+
+**Vue.js** simplifies user interactions and form handling through its reactive two-way data binding, utility directives, and validation libraries. Let's explore these features further.
+
+### Two-Way Data Binding
+
+Vue.js's **two-way data binding** ensures that changes in input fields are reflected in corresponding data properties and vice versa.
+
+For two-way binding, use the `v-model` directive:
+
+```html
+<input v-model="name" />
+<p>{{ name }}</p>
+```
+
+In this example, `name` is the corresponding data property, and its value is updated as the user types in the `input` field.
+
+### Handling Event
+
+Vue.js provides the **v-on** directive to handle user-triggered events, like `click`, `input`, or `submit`. 
+
+For example:
+```html
+<button v-on:click="handleClick">Click Me</button>
+```
+
+Here, the `handleClick` method is called when the button is clicked.
+
+### Customize Event Handling
+
+You can combine `v-on` with the `.stop`, `.prevent`, and `.self` modifiers to fine-tune event behavior. For instance:
+
+- `.stop`: Prevent event propagation.
+- `.prevent`: Call `event.preventDefault()`.
+- `.self`: Trigger only if the event initiates from the element, not its children.
+
+**Example**:
+```html
+<button v-on:click.stop="log">Do not propagate</button>
+```
+
+### Form Submission
+
+To handle form submissions and their associated actions, such as making an API call, use the **v-on:submit** directive.
+
+```html
+<form v-on:submit.prevent="submitForm">
+  <input type="text" v-model="name" />
+  <button type="submit">Submit</button>
+</form>
+```
+
+In this example, `submitForm` is triggered when the form is submitted, preventing the default form action.
+
+### Async Form Submission
+
+If your form submission involves asynchronous operations, like calling an API, you can use `async` methods with `await` within `v-on:submit` handlers:
+
+```html
+<form v-on:submit.prevent="submitForm">
+  <!-- ... form inputs ... -->
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  methods: {
+    async submitForm() {
+        // perform async operations here
+    }
+  }
+</script>
+```
+
+### Input Validation with Watchers
+
+You can ensure user inputs meet specific criteria using **watchers**:
+
+```javascript
+data() {
+  return {
+    username: ''
+  };
+},
+watch: {
+  username(newVal) {
+    if (newVal.length < 3) {
+      console.log('Username must be at least 3 characters long');
+    }
+  }
+}
+```
+
+In this scenario, `submitForm` will only be called if the condition in the `watch` block is met. If the condition fails, the submission is prevented.
+
+### Extended Input Components
+
+For form-specific needs, Vue provides dedicated components like `v-radio`, `v-checkbox`, and `v-select`:
+
+```html
+<v-form>
+    <v-radio v-model="gender" :options="['male', 'female']">Gender:</v-radio>
+    <v-checkbox v-model="agree">I accept the terms and conditions</v-checkbox>
+    <v-checkbox v-model="newsletter">Subscribe to our newsletter</v-checkbox>
+    <v-button @click="submit">Submit</v-button>
+</v-form>
+```
+
+Each component performs both form **input submission** and **validation**.
+<br>
+
+## 10. Discuss the _methods_ property in a _Vue component_.
+
+**The `methods` Property** in Vue.js lets you define and use custom methods within a component. This separates component logic into manageable pieces for improved reusability and maintainability.
+
+### Key Features
+
+1. **Method Definition**: Declare named methods within the `methods` object.
+
+2. **Access to Data and Lifecycle**: Methods can directly interact with local data and are aware of the component's lifecycle.
+
+3. **Event Handling**: Commonly used for event callbacks, serving as an alternative to inline event-handling functions.
+
+4. **Code Reusability**: Methods support modularity and code reusability within the component.
+
+5. **Performance Considerations**: If you need to rerender only portions of the UI, you can use **Vue's reactivity system**. The methods referred to within the template are reactive.
+
+6. **Scope**: Methods are accessible within the component's context, keeping them separate from global or parent component methods.
+
+### Code Example: Using `methods`
+
+Here is the Vue JS code:
+
+```vue
+<template>
+  <div>
+    <button @click="incrementCounter">Increment</button>
+    <p>Counter value: {{ counter }}</p>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      counter: 0
+    };
+  },
+  methods: {
+    incrementCounter() {
+      this.counter++;
+    }
+  }
+};
+</script>
+```
+<br>
+
+## 11. Explain the difference between `v-bind` and `v-model`.
+
+**Vue.js**, while it has concise syntax, uses varied directives in its **templating** engines for distinct functions.
+
+### The Essentials
+
+- **v-bind**: Links variables from the model to views.
+- **v-model**: Directs two-way binding, enabling real-time updates between inputs and the application's data model.
+
+### Supporting Aspects
+
+- **Scope**: V-bind is ideally used for one-way data flow, from the model to the view. V-Model incorporates both one-way and two-way data flow, **updating both model and view** as data changes.
+
+- **Compatible Elements:** V-Model primarily targets form elements, allowing for user input tracking.
+
+  ```html
+  <!-- Text Input -->
+  <input type="text" v-model="message">
+  ```
+
+  In contrast, V-Bind is versatile and is compatible with a wide array of HTML attributes.
+
+  ```html
+  <!-- Linking Attribute -->
+  <a v-bind:href="url">Vue.js Website</a>
+  ```
+
+### Best Use-Cases
+
+- **V-Bind**:  Ideal for unidirectional data flow and non-form elements.
+
+  ```html
+  <!-- One-Way List Binding -->
+  <ul>
+    <li v-for="item in items" v-bind:key="item.id">
+      {{ item.name }}
+    </li>
+  </ul>
+  ```
+
+- **V-Model**: Suitable for effortlessly managing data in forms.
+
+  ```html
+  <!-- Checkboxes with Data Binding -->
+  <input type="checkbox" id="checkbox" v-model="checked">
+  ```
+
+### Code Example: V-Bind and V-Model
+
+Here is the HTML:
+
+```html
+<div id="app">
+  <p>{{ message }}</p>
+  <input type="text" v-model="message">
+  <a v-bind:href="url">{{ linkText }}</a>
+</div>
+```
+
+Here is the Vue.js code:
+
+```javascript
+new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello, Vue!',
+    url: 'https://vuejs.org/',
+    linkText: 'Vue.js Official Website'
+  }
+});
+```
+<br>
+
+## 12. What are _computed properties_ and how are they used?
+
+**Computed properties** in Vue.js are derived data elements that automatically update whenever their "watched" dependencies change.
+
+They eliminate the need for manual tracking and updating of data, offering a simpler and more efficient data management tool.
+
+### Core Benefits
+
+- **Caching**: Computed values are cached based on their dependencies. They recalculate only when a dependency changes, enhancing performance.
+
+- **Simplicity**: Create and use computed properties with the same seamless syntax as other data properties, like `data` and `methods`.
+
+### When to Use Computed Properties
+
+- **Derivative Data**: It's best used for data that is derived from other data, rather than being independent.
+
+- **Data Aggregation**: For processes like filtering, sorting, and data aggregations like sums or averages.
+
+### Practical Applications
+
+- **Display Formatting**: For dynamic formatting, such as concealing sensitive data or changing number representations.
+
+- **Dependency Management**: To handle complex data relationships without manual tracking.
+
+- **User Interactions**: For managing user inputs and dynamic interface updates, such as marking all items in a list as "done."
+
+### Performance Considerations
+
+While computed properties can aid performance through caching, be cautious with extremely complex and time-consuming computations. These can still introduce bottlenecks. In such cases, consider using techniques like debouncing or minimizing the use of relatively expensive computed properties.
+
+### Code Example: A Basic Computed Property
+
+Here is the Vue.js code:
+
+```vue
+<template>
+  <div>
+    <p>{{ reversedMessage }}</p>
+    <input v-model="message" />
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      message: 'Hello, Vue!',
+    };
+  },
+  computed: {
+    reversedMessage() {
+      return this.message.split('').reverse().join('');
+    },
+  },
+};
+</script>
+```
+<br>
+
+## 13. Can you discuss the difference between _computed properties_ and _methods_?
+
+- **Computed Properties**: These are like data fields that are derived from other data **based on specific logic**. You define computed properties using the `computed` option in a Vue component.
+- **Methods**: They are like functions, meaning they are **called on demand**. You define methods using the `methods` option in a Vue component.
+
+#### Efficiency
+
+- **Computed Properties**: The natural caching mechanism in Vue ensures that if the data properties on which the computed property depends haven't changed, the computed property doesn't recompute.
+- **Methods**: They execute every time they are needed, irrespective of whether the underlying data has changed or not.
+
+#### Use in Templates
+
+- **Computed Properties**: They can be used in Vue templates very much like data properties. Vue knows when a computed property needs to be recomputed and takes care of it automatically.
+- **Methods**: Their use in templates is often not ideal because they can lead to unnecessary re-rendering, especially if the method involves some heavy computation.
+
+#### Data Reusability & Data Source
+
+- **Computed Properties**: They are perfect when you want to use a processed or derived version of the data in multiple places within the template or component. They abstract and cache the data transformation for you.
+- **Methods**: Useful when you need to perform an operation just once or need to trigger an action on an event, for example a button press.
+
+#### Common Examples
+
+- **Computed Properties**: Calculating the total price of items in a shopping cart, applying a filter to a list, or sorting an array.
+- **Methods**: Handling form submissions, initiating data fetch or AJAX requests, or any kind of action that needs to be explicitly triggered.
+<br>
+
+## 14. What are _watchers_ in _Vue.js_?
+
+In Vue.js, **watchers are key features** that track data changes and enable developers to execute specific logic or tasks in response to those changes.
+
+These watchers are defined inside Vue components and serve as an indispensable tool for building reactive behavior. They work in tandem with the Vue instance to monitor specific data properties, methods, or even component options.
+
+### How Are Watchers Defined?
+
+Developers can set up watchers in two primary ways:
+
+1. **Declared in the Watch Option**  
+    This option is preferred for more complex watcher functions that respond to multiple data sources or need additional parameters.
+
+    ```javascript
+    export default {
+      data() {
+        return {
+          items: [],
+          totalCount: 0
+        };
+      },
+      watch: {
+        items: {
+          deep: true,  // Detect changes at nested levels, if items are objects or arrays.
+          immediate: true, // Call the handler immediately once the component is created.
+          handler(newItems, oldItems) {
+            // Update the total count on item changes.
+            this.totalCount = newItems.length;
+          }
+        }
+      }
+    };
+    ```
+
+2. **Using a Method to Bypass Limitations**  
+    By using a more conventional method, Vue developers can watch computed properties, for example. They can also handle multiple related data sources if required.
+
+    ```javascript
+    export default {
+      data() {
+        return {
+          firstName: '',
+          lastName: ''.
+          fullName: ''
+        }
+      },
+      watch: {
+        firstName(val) {
+          this.fullName = val + ' ' + this.lastName;
+        },
+        lastName(val) {
+          this.fullName = this.firstName + ' ' + val;
+        }
+      }
+    };
+    ```
+
+### Performance Considerations
+
+While watchers are highly effective mechanisms for managing reactivity, unnecessary or excessive watchers can lead to performance bottlenecks in bigger Vue.js projects.
+
+Developers can use several techniques to optimize watchers and minimize their impact:
+
+-   **Leverage Computed Properties**: Instead of watching the same data value for changes, use computed properties to derive values and update automatically when dependent data changes.
+-   **Batch Updates When Possible**: If multiple changes to a data source would cause many watcher updates, Vue.js can batch these updates. But be sure to verify if the app architecture supports this behavior.
+-   **Reduce Unnecessary Updates**: Tools like `Immediate: true` in watchers ensure the handler is called once when the component loads, but use this option only when necessary.
+<br>
+
+## 15. How do you _bind inline styles_ in a _Vue template_?
+
+In Vue.js, you can **bind inline styles to an element** through several methods like templates with `v-bind`, dynamic class bindings, and JS object-style declarations.
+
+### Inline Style Binding Approaches
+
+1. **Using the `:style` Directive**: You can define an object with CSS styles and then bind it to the element. Each key-value pair represents a style property and its value.
+
+    ```vue
+    <template>
+      <div :style="myStyles">Styled Text</div>
+    </template>
+    
+    <script>
+    export default {
+      data() {
+        return {
+          myStyles: {
+            color: 'blue',
+            'font-weight': 'bold',
+            fontFamily: 'Arial, sans-serif'
+          }
+        };
+      }
+    };
+    </script>
+    ```
+
+2. **Binding Inline Styles Directly**: This approach is useful when the style values need to be dynamic. However, it's less modular than using a style object.
+
+    ```vue
+    <template>
+        <div :style="{ color: textColor, fontSize: textSize + 'px'}">Dynamic Text</div>
+    </template>
+    
+    <script>
+    export default {
+      data() {
+        return {
+          textColor: 'green',
+          textSize: 24
+        };
+      }
+    };
+    </script>
+    ```
+
+3. **CSS Modules**: Places **styles in a separate file, processes them with Vue Loader, and requires modular scoped styles in components**. This approach provides isolation and reusability.
+
+    1. Create a `styles.module.css` file
+
+        ```css
+        .styledText {
+           color: blue;
+           font-weight: bold;
+           font-family: 'Arial, sans-serif';
+        }
+        ```
+
+    2. Use the CSS module in the component
+
+        ```vue
+        <template>
+           <div :class="$style.styledText">Styled Text</div>
+        </template>
+        
+        <script>
+        export default {
+           // ...rest of the component
+        };
+        </script>
+        ```
+
+### Benefits of Different Approaches
+
+- **Code Reusability**: The object approach with `:style` and the modular styles using CSS modules are great for style management and reusability.
+- **Dynamic Styling**: Binding styles directly with `:style` and using JS objects is suitable for dynamic style changes.
+- **Readability and Maintainability**: Each approach has its own visual language. Use the one that's most readable and maintainable for your team.
+
+### Additional Recommendations
+
+- **Multiple Styles**: Avoid grouping multiple styles under one key if you expect them to change independently.
+
+    ```vue
+    <!-- Where feasible, avoid -->
+    <div :style="{color: dynamicColor, fontSize: dynamicSize + 'px'}">
+    ```
+
+- **Modular Styles**: If you're using the object approach with `:style`, consider managing the styles in a separate object for better readability and maintainability.
+
+    ```vue
+    <template>
+      <div :style="mySeparateStylesObject">Styled Text</div>
+    </template>
+
+    <script>
+    export default {
+      data() {
+        return {
+          mySeparateStylesObject: {
+            color: 'blue',
+            fontSize: '22px'
+          }
+        };
+      }
+    };
+    </script>
+    ```
+<br>
+
+
+
+#### Explore all 100 answers here 👉 [Devinterview.io - Vue.js](https://devinterview.io/questions/web-and-mobile-development/vue-interview-questions)
+
+<br>
+
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
+
